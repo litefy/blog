@@ -2,7 +2,7 @@
 layout: blog
 title: 写周报
 ---
-page.title
+{{page.title}}
 =
 好的习惯是每天结束做回顾, 更好的习惯是每天开始做规划 每天结束做消项.
 
