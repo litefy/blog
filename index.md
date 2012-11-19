@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: page
 title: Litefy's Blog
 ---
 {{page.title}}
