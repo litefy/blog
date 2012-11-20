@@ -8,12 +8,32 @@
 	<title>{% if page.title %} {{ page.title }} | {% endif %} Litefy's Blog 偶然 自省 生活</title>
 </head>
 <body>
-	<div class="span10 offset2 pricehover">
-	<ul class="breadcrumb">
-	<li><a href="/blog/">Home</a></li><li class="divider">/</li>
-	<liclass="active">blog</li>
+	<div class="container">
+		<!-- 导航 -->
+		<div class="span6">
+			<ul class="nav nav-pills">
+				<li class="active"><a>Litefy's Blog</a></li>
+				<li><a href="{{site.baseurl}}/">>> Home</a></li>
+				<li><a>>> Archives</a></li>
+			</ul>
+		</div>
+		<!--
+		<div class="span2 offset3 btn-group">
+			<button class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+				RSS
+				<span class="caret">
+			</button>
+			<ul class="dropdown-menu">
+			<li>
+				<a href="http://litefy.github.com/blog/atom.xml"">Atom</a>
+			</li>
+			<li>
+				<a href="http://www.google.com/ig/add?feedurl=http://litefy.github.com/blog/atom.xml">Google Reader</a>
+			</li>
+			</ul>
+		</div>
+		-->
 	</div>
-	
 	<!--
 	<div class="span3 offset9">
 		<a href="{{site.baseurl}}/{{page.url}}#disqus_thread">Comment</a>
@@ -31,16 +51,33 @@
 		}());
 	</script>
 	-->
-	
-	<div class="row">
-		<h1 class="span8 offset4">{{page.title}}</h1>
+
+	<div class="container">
+		<!-- RSS -->
+		<div class="span2 offset10 btn-group">
+			<button class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+				RSS
+				<span class="caret">
+			</button>
+			<ul class="dropdown-menu">
+			<li>
+				<a href="http://litefy.github.com/blog/atom.xml"">Atom</a>
+			</li>
+			<li>
+				<a href="http://www.google.com/ig/add?feedurl=http://litefy.github.com/blog/atom.xml">Google Reader</a>
+			</li>
+			</ul>
+		</div>
+		<!-- 标题 -->
+		<h1 class="span8 offset2">{{page.title}}</h1>
+		<!-- 日期 -->
 		<div class="span2 offset10">
 			{{ page.date | date_to_string }}
 		</div>
-		<div class="span8 offset3">
+		<!-- 正文 -->
+		<div class="span8 offset1">
 			{{ content }}
 		</div>	
-	</div>
 	
 	<!--
 	{{site}}
@@ -48,7 +85,7 @@
 	{{paginator}}
 	-->
 	
-	<div class="span8 offset3" id="disqus_thread"></div>
+	<div class="span8 offset1" id="disqus_thread"></div>
 	<script type="text/javascript">
 		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 		var disqus_shortname = 'litefygitblog'; // required: replace example with your forum shortname
@@ -64,9 +101,11 @@
 	<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 	
 	<!-- UY BEGIN -->
-	<div class="span8 offset3" id="uyan_frame"></div>
+	<div class="span8 offset1" id="uyan_frame"></div>
 	<script type="text/javascript" id="UYScript" src="http://v1.uyan.cc/js/iframe.js?UYUserId=1711143" async=""></script>
 	<!-- UY END -->
+	
+	</div>
 	
 </body>
 </html>
