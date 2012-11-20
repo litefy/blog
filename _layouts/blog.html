@@ -2,10 +2,10 @@
 <html>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<link href="/blog/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	 <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="/blog/js/bootstrap.min.js"></script>
-	<title>{{ page.title }}</title>
+	<link href="{{site.baseurl}}/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
+	<title>{% if page.title %} {{ page.title }} | {% endif %} Litefy's Blog</title>
 </head>
 <body>
 	<div class="span10 offset2 pricehover">
@@ -16,7 +16,7 @@
 	
 	<!--
 	<div class="span3 offset9">
-		<a href="/blog/{{page.url}}#disqus_thread">Comment</a>
+		<a href="{{site.baseurl}}/{{page.url}}#disqus_thread">Comment</a>
 	</div>
 	<script type="text/javascript">
 		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -42,6 +42,12 @@
 		</div>	
 	</div>
 	
+	<!--
+	{{site}}
+	</br>
+	{{paginator}}
+	-->
+	
 	<div class="span8 offset3" id="disqus_thread"></div>
 	<script type="text/javascript">
 		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -56,6 +62,11 @@
 	</script>
 	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 	<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-        
+	
+	<!-- UY BEGIN -->
+	<div class="span8 offset3" id="uyan_frame"></div>
+	<script type="text/javascript" id="UYScript" src="http://v1.uyan.cc/js/iframe.js?UYUserId=1711143" async=""></script>
+	<!-- UY END -->
+	
 </body>
 </html>
