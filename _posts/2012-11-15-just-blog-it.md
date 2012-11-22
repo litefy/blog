@@ -1,6 +1,8 @@
 ---
-layout: blog
-title: 让非专业编程的你也掌控自己的博客
+layout : blog
+title : 让非专业编程的你也掌控自己的博客
+tags : [blog, git]
+categorys: [nil]
 ---
 让你理解:
 
