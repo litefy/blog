@@ -83,7 +83,7 @@
 				-->
 				{% if page.tags[0] %}
 				<div class="span2 offset1">
-					Tags: {% for tag in page.tags %} <a href="{{site.baseurl}}/tag.html#{{ tag }}">{{ tag }}</a> {% if page.tags[-1] != tag %}, {% endif %} {% endfor %}
+					Tags: {% for tag in page.tags %} <a href="{{site.baseurl}}/tag.html#{{ tag }}">{{ tag }}</a> {% endfor %}
 				</div>
 				{% endif %}
 				
