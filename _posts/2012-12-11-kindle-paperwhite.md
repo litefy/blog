@@ -1,7 +1,7 @@
 ---
 layout : blog
 title : Kindle Paperwhite
-tags : []
+tags : [kindle]
 ---
 
 上周末Kindle Paperwhite终于到手了, 墨水屏+图书推送的体验真是不错.

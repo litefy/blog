@@ -15,6 +15,10 @@ pygments:    false
 markdown:    rdiscount
 permalink:   date
 
+author:
+  name:    Litefy
+description: "Litefy\'s Blog żȻ "
+
 maruku:
   use_tex:    false
   use_divs:   false
