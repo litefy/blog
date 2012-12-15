@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Litefy's Blog
+title: Litefy's Blog 偶然 自省 生活
 ---
 {{page.title}}
 =
