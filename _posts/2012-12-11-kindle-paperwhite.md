@@ -8,7 +8,7 @@ tags : [kindle]
 
 黑色的Paperwhite外形和手感都很好 比我上个新年给家人买过Kindle Touch漂亮太多.
 
-<img width="400" height="800" src="{{site.baseurl}}/img/kindle_paperwhite.jpg" />
+<img width="400" height="800" alt="Kindle Paperwhite" title="Kindle Paperwhite" src="{{site.baseurl}}/img/kindle_paperwhite.jpg" />
 
 亚马逊开放了推送图书到Kindle的接口, 所以有很多做Kindle内容的资源站 比如:
 
