@@ -25,5 +25,3 @@ tags : [kindle]
 推送RSS订阅或Google reader内容到kindle, Google reader内容可选加星标的条目, 推荐的条目, 或文件夹.
 
 其他订阅推送站: [Klip.me](http://www.klip.me "Klip.me") [IFTTT](http://www.douban.com/group/topic/34867704/ "IFTTT")
-
----
