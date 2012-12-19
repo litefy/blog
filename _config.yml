@@ -15,9 +15,12 @@ pygments:    false
 markdown:    rdiscount
 permalink:   date
 
+title :      litefy.com
+url :        http://litefy.github.com/blog/
 author:
-  name:    Litefy
-description: "Litefy\'s Blog żȻ "
+  name:      Litefy
+  email:     litefy@gmail.com
+description: "Litefy\'s Blog 偶然 自省 生活"
 
 maruku:
   use_tex:    false
