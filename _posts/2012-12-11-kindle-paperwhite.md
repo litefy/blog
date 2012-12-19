@@ -4,11 +4,17 @@ title : Kindle Paperwhite
 tags : [kindle]
 ---
 
-上周末Kindle Paperwhite终于到手了, 墨水屏+图书推送的体验真是不错.
+上周末Kindle Paperwhite终于到手了, 墨水屏+内容推送的体验真是不错.
 
 黑色的Paperwhite外形和手感都很好 比我上个新年给家人买过Kindle Touch漂亮太多.
 
 <img width="400" height="800" alt="Kindle Paperwhite" title="Kindle Paperwhite" src="{{site.baseurl}}/img/2012-12/kindle_paperwhite.jpg" />
+
+Kindle Paperwhite
+
+Kindle方便的"**标注和笔记**"功能和专心的阅读环境, 带来比纸质书、液晶屏更多的**思考**和**自省**.
+
+Firefox和Chrome有亚马逊官方的Send to Kindle插件, 遇到长篇文章一键推动到Kindle, 在墨水屏上读起来非常爽(舒服 专心).
 
 亚马逊开放了推送图书到Kindle的接口, 所以有很多做Kindle内容的资源站 比如:
 

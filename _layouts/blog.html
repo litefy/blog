@@ -3,9 +3,9 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<link rel="shortcut icon" href="/blog/favicon.ico" type="image/x-icon" />
-	<link href="{{site.baseurl}}/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
 	
 	<title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.description }}</title>
 </head>
@@ -68,13 +68,13 @@
 					</button>
 					<ul class="dropdown-menu">
 					<li>
-						<a href="http://litefy.github.com/blog/feed/atom.xml"">Atom</a>
+						<a href="{{ site.feed }}"">Atom</a>
 					</li>
 					<li>
-						<a href="http://www.google.com/ig/add?feedurl=http://litefy.github.com/blog/feed/atom.xml">Google Reader</a>
+						<a href="http://www.google.com/ig/add?feedurl={{ site.feed }}">Google Reader</a>
 					</li>
 					<li>
-						<a href="http://9.douban.com/reader/subscribe?url=http://litefy.github.com/blog/feed/atom.xml" target="_blank"><img src="http://www.douban.com/pics/newnine/feedbutton1.gif"/></a> 
+						<a href="http://9.douban.com/reader/subscribe?url={{ site.feed }}" target="_blank"><img src="http://www.douban.com/pics/newnine/feedbutton1.gif"/></a> 
 					</li>
 					</ul>
 				</div>
@@ -89,7 +89,7 @@
 				-->
 				{% if page.tags[0] %}
 				<div class="span2 offset1">
-					Tags: {% for tag in page.tags %} <a href="{{site.baseurl}}/tag.html#{{ tag }}">{{ tag }}</a> {% endfor %}
+					Tags: {% for tag in page.tags %} <a href="{{ site.baseurl }}/tag.html#{{ tag }}">{{ tag }}</a> {% endfor %}
 				</div>
 				{% endif %}
 				

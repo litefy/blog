@@ -5,13 +5,13 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
   <title>Litefy's Blog 偶然 自省 生活</title>
-  <link href="http://litefy.github.com/blog/"/>
-  <link type="application/atom+xml" rel="self" href="http://litefy.github.com/blog/atom.xml"/>
+  <link href="{{ site.url }}"/>
+  <link type="application/atom+xml" rel="self" href="{{ site.feed }}"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://litefy.github.com/blog/</id>
+  <id>{{ site.url }}</id>
   <author>
-    <name>Litefy</name>
-    <email>litefy@gmail.com</email>
+    <name>{{ site.author.name }}</name>
+    <email>{{ site.author.email }}</email>
   </author>
 
 
@@ -22,8 +22,8 @@ layout: nil
     <title>{{ post.title | xml_escape }}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
-      <name>Litefy</name>
-      <uri>http://litefy.github.com/blog/</uri>
+      <name>{{ site.author.name }}</name>
+      <uri>{{ site.url }}</uri>
     </author>
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
