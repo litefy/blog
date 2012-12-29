@@ -1,5 +1,5 @@
 ---
-layout : blog
+layout : post
 title : 写周报
 tags : [report]
 ---

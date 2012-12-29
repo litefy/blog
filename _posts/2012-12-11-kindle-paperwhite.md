@@ -1,5 +1,5 @@
 ---
-layout : blog
+layout : post
 title : Kindle Paperwhite
 tags : [kindle]
 ---
@@ -31,15 +31,3 @@ Firefox和Chrome有亚马逊官方的Send to Kindle插件, 遇到长篇文章一
 推送RSS订阅或Google reader内容到kindle, Google reader内容可选加星标的条目, 推荐的条目, 或文件夹.
 
 其他订阅推送站: [Klip.me](http://www.klip.me "Klip.me - Enjoy Mobile Reading") [IFTTT](http://www.douban.com/group/topic/34867704/ "从Google Reader推送文章至Kindle方案总结实践")
-
-<div class="well">
-	<h6>文档信息</h6>
-	<hr />
-	<p>
-		版权声明：自由转载-非商用-非衍生-保持署名 | 
-		<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" title="Creative Commons &mdash; 署名-非商业性使用-禁止演绎 3.0 未本地化版本 &mdash; CC BY-NC-ND 3.0">Creative Commons BY-NC-ND 3.0</a>
-	</p>
-	<p>
-		原文网址：<a href="{{ site.baseurl }}/{{ page.url }}" title="{{ page.title }}">{{ site.url }}{{ page.url }}</a>
-	</p>
-</div>

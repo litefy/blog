@@ -1,5 +1,5 @@
 ---
-layout : blog
+layout : post
 title : 让非专业编程的你也掌控自己的博客
 tags : [blog, git]
 categorys: [nil]

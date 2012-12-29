@@ -1,5 +1,5 @@
 ---
-layout : blog
+layout : post
 title : 我喜欢在网上走走
 tags : [blog, git, jekyll, bootstrap, markdown]
 ---
