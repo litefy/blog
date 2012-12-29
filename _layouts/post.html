@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	{% include head_common %}
+	{% include head_common.html %}
 	<title>{% if page.title %} {{ page.title }} | {% endif %}{{ site.description }}</title>
 </head>
 <body>
@@ -25,13 +25,13 @@
 					{{ content }}
 					<br />
 					<!-- 文档信息 -->
-					{% include document_info.md %}
+					{% include document_info.html %}
 					<hr />
 				</div>
 				<!-- 评论 -->
-				{% include comments.md %}
+				{% include comments.html %}
 				<!-- 网站统计 -->
-				{% include analytics.md %}
+				{% include analytics.html %}
 			</div>
 			<div class="span3">
 				<!-- RSS -->
