@@ -15,7 +15,7 @@ markdown:    rdiscount
 permalink:   date
 
 title:       litefy.com
-url:         http://litefy.github.com/blog/
+url:         http://litefy.github.com/blog
 feed:        http://litefy.github.com/blog/feed/atom.xml
 author:
   name:      Litefy
